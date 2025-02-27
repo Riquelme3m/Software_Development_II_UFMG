@@ -8,7 +8,6 @@ This repository serves as a platform for revisiting and re-solving the problems 
 - Object-Oriented Programming (OOP)
 - Software Design and Specification
 - Version Control Systems (Git)
-- Defensive Programming
 - Exception Handling
 - Software Testing
 - Connection with Database
