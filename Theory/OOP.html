@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OOP - Theory questions</title>
 </head>
+
 <body>
     <div>
         <h1>What is Object Oriented Programming?</h1>
-        <p>It's a programming paradigm where the development is driven by objects which communicate to each other where those objects are classes with attributes and methods.</p>
+        <p>It's a programming paradigm where the development is driven by objects which communicate to each other where
+            those objects are classes with attributes and methods.</p>
     </div>
     <div>
         <h1>Why OOP?</h1>
@@ -23,11 +26,13 @@
     </div>
     <div>
         <h1>What's class?</h1>
-        <p>Classes are a user-defined type or in another words blueprint of an object which contains attributes and methods .</p>
+        <p>Classes are a user-defined type or in another words blueprint of an object which contains attributes and
+            methods .</p>
     </div>
     <div>
         <h1>What's an object?</h1>
-        <p>An object is the instance of a class , which contains the attributes and methods implemented in that class and perform operations.</p>
+        <p>An object is the instance of a class , which contains the attributes and methods implemented in that class
+            and perform operations.</p>
     </div>
     <div>
         <h1>What are the main features of OOP?</h1>
@@ -40,11 +45,13 @@
     </div>
     <div>
         <h1>What is encapsulation?</h1>
-        <p>Encapsulation is the process of wraping attributes and methods within a class restricting direct access to some details.</p>
+        <p>Encapsulation is the process of wraping attributes and methods within a class restricting direct access to
+            some details.</p>
     </div>
     <div>
         <h1>What is abstraction?</h1>
-        <p>Abstraction is the process of hiding complex implementation details and showing only the main features of an object.It allows the users to interact with the objects without needing to understand internal details.</p>
+        <p>Abstraction is the process of hiding complex implementation details and showing only the main features of an
+            object.It allows the users to interact with the objects without needing to understand internal details.</p>
     </div>
     <div>
         <h1>What is polymorphism?</h1>
@@ -53,46 +60,156 @@
     <div>
         <h1>What are the two types of polymorphism?</h1>
         <ul>
-            <li>Compile time polymorphism (static polymorphism) which is achieved by <strong>method overloading</strong> or <strong>operator overloading</strong>.</li>
-            <li>Run time polymorphism (dynamic polymorphism) which is achieved by <strong>method overriding</strong>.</li>
+            <li>Compilation time polymorphism (static polymorphism) (early binding) which is achieved by <strong>method
+                    overloading</strong> or <strong>operator overloading</strong>.</li>
+            <li>Run time polymorphism (dynamic polymorphism) (late binding) which is achieved by <strong>method
+                    overriding</strong>.</li>
         </ul>
     </div>
     <div>
         <h1>What is inheritance?</h1>
-        <p>Inheritance is the process of a class where this class inherits either methods or attributes from another class and reuse them in a relationship parent-child.</p>
+        <p>Inheritance is the process of a class where this class inherits either methods or attributes from another
+            class and reuse them in a relationship parent-child.</p>
     </div>
     <div>
         <h1>What is the difference between a structure and a class in C++</h1>
-        <p>In a struct everything is public either attributes or methods . In a class , by default everything is private unless you set otherwise. We usually use struct for implementing data structures such as nodes and so on .</p>
+        <p>In a struct everything is public either attributes or methods . In a class , by default everything is private
+            unless you set otherwise. We usually use struct for implementing data structures such as nodes and so on .
+        </p>
     </div>
     <div>
         <h1>What is a constructor?</h1>
-        <p>A constructor is a function that initializes an object . In C++ it's important to understand the difference between the default constructor that you might set and the constructor with the <strong>member initializer list</strong></p>
-        <p>In the default constructor , the attributes are initialized twice ( one for the default initialization ) and one for the one you set , but when you use lists there is not this default initialization which is more efficient.</p>
+        <p>A constructor is a function that initializes an object . In C++ it's important to understand the difference
+            between the default constructor that you might set and the constructor with the <strong>member initializer
+                list</strong></p>
+        <p>In the default constructor , the attributes are initialized twice ( one for the default initialization ) and
+            one for the one you set , but when you use lists there is not this default initialization which is more
+            efficient.</p>
         <p>A constructor is called every time a new object is created</p>
     </div>
     <div>
         <h1>What is a destructor?</h1>
-        <p>A destructor is a method which is called when either an object goes out of scope or when the keyword delete is called.</p>
+        <p>A destructor is a method which is called when either an object goes out of scope or when the keyword delete
+            is called.</p>
         <p>In the example virus , we see a kind of recursion calling the destructors in a chain effect. </p>
     </div>
     <div>
         <h1>What are access modifiers/operator modifiers ?</h1>
-        <p>They are keywords that we use to restric access to methods and attributes in a class . In C++ we have three : </p>
+        <p>They are keywords that we use to restric access to methods and attributes in a class . In C++ we have three :
+        </p>
         <ul>
-            <li>Private :  Only available within the class</li>
-            <li>Public :  Available anywhere</li>
+            <li>Private : Only available within the class</li>
+            <li>Public : Available anywhere</li>
             <li>Protected: Available within the class and for its children</li>
         </ul>
     </div>
 
     <div>
         <h1>What is static method and attributes ?</h1>
-        <p>When you create a new object , a new memory address is assigned to that object . However, when you create a static method or attribute , this one occupies only one address in memory . Therefore , it means that we can access this methods or attribute from any object created or using the class name itself removing the need to create a new object. Example : static int objectCounter which is incremented by one every time a new object is created</p>
+        <p>When you create a new object , a new memory address is assigned to that object . However, when you create a
+            static method or attribute , this one occupies only one address in memory . Therefore , it means that we can
+            access this methods or attribute from any object created or using the class name itself removing the need to
+            create a new object. Example : static int objectCounter which is incremented by one every time a new object
+            is created</p>
     </div>
     <div>
         <h1>How much memory a class occupy?</h1>
-        <p>A class does not occupy any space in memory since it's only the template/blueprint items are made. Only objects occupy memory.</p>
+        <p>A class does not occupy any space in memory since it's only the template/blueprint items are made. Only
+            objects occupy memory.</p>
     </div>
+    <div>
+        <h1>What is a multiple inheritance in C++</h1>
+        <p>It's when a class inherits from more than one class.However , it's usage is not recommended , because
+            increase the complexity
+            and decrease the independency , but it's possible in C++
+        </p>
+    </div>
+    <div>
+        <h1>What is upcasting?</h1>
+        <p>It's when a type of a sub class become the type of a superclass and it happens naturally in C++ , for example
+            , cat is an Animal and cat is derived from Animal Class
+        </p>
+    </div>
+    <div>
+        <h1>What is downcasting?</h1>
+        <p>It's when a superclass gets the type of a subclass , but it must be done implicitly and it's not always
+            possible and there is a probability to have segmentation default when the conversion is not feasible
+        </p>
+    </div>
+    <div>
+        <h1>Considering the code below try to guess which constructor is called : A ,B ,C or none</h1>
+        <pre><code>
+            #include &lt;iostream&gt;
+            
+            class Lamp {
+                private:
+                    int _watts;
+                    float _price;
+            
+                public:
+                    Lamp() {
+                        std::cout &lt;&lt; "Calling A constructor" &lt;&lt; std::endl;
+                    }
+                    Lamp(int watts) {
+                        _watts = watts;
+                        std::cout &lt;&lt; "Calling B constructor" &lt;&lt; std::endl;
+                    }
+                    Lamp(int watts, float price) {
+                        _watts = watts;
+                        _price = price;
+                        std::cout &lt;&lt; "Calling C constructor" &lt;&lt; std::endl;
+                    }
+            };
+            
+            int main() {
+                Lamp lp;           
+                Lamp *lpPtr;      
+                Lamp lp();         
+                Lamp lp(30);      
+                Lamp lp(13.5);  
+                Lamp lp(30, 13.5); 
+                int x = 60;
+                Lamp lp(x);        
+            
+                return 0;
+            }
+                </code></pre>
+    </div>
+
+    <div>
+        <h1>What happens under the hood here ?</h1>
+        <div>
+            <pre><code>
+                float operator+(Lamp &ls){
+                    return this->_price + ls._price;
+                }
+
+                int main(){
+
+                    Lamp* l1 = new Lamp(20,20.4);
+                    Lamp* l2 = new Lamp(30,30.6);
+
+                    float sum = l1*+l2*;
+
+                    //Under the hood float sum = l1*+l2* translates to float sum = l1->operator+(*l2) , which is l1->_price + l2->_price;
+                    
+                    delete l1;
+                    delete l2;
+                    return 0;
+                }
+            </code></pre>
+        </div>
+        <div>
+            <h1>Explain what happens with an object within a scope when an exception is thrown within the same scope ?
+            </h1>
+        </div>
+        <div>
+            <h1>What is stack unwinding?</h1>
+        </div>
+
+    </div>
+
+
 </body>
+
 </html>
